@@ -40,7 +40,7 @@ export default function Header() {
             onChange={toggleTheme}
             checked={!darkMode}
           />
-          <label for='checkbox' className='label'>
+          <label htmlFor='checkbox' className='label'>
             <div className='ball'/>
           </label>
         </div>
