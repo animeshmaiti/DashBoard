@@ -15,6 +15,45 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.toggle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.checkbox{
+  display: none;
+}
+.label{
+  @apply bg-slate-300;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px;
+  padding: 5px;
+  margin: 0 20px;
+  width: 50px;
+  height: 23px;
+  cursor: pointer;
+}
+.ball{
+  background: #fff;
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  transition: transform 0.15s linear;
+}
+.checkbox:checked + .label .ball{
+  transform: translateX(24px);
+}
+.checkbox:checked + .label{
+  background: linear-gradient(90deg, hsl(210,78%,56%), hsl(146,68%,55%));
+}
+
 .instagram {
   background: linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
 }
