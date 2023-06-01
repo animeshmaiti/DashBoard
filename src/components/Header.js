@@ -18,10 +18,10 @@ export default function Header() {
       <header className='relative z-10 max-w-7xl mx-auto flex items-center justify-between'>
         <div>
           <h1 className='font-bold text-2xl text-slate-800 dark:text-white'>
-            Social Media Dashboard 
+            All Social Media Links 
           </h1>
           <p className='text-slate-600 font-bold dark:text-slate-400'>
-            Total Followers: 13,458
+            Total Accounts: 12
           </p>
         </div>
         

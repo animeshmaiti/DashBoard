@@ -1,186 +1,155 @@
 import React from "react"
-import facebook from "../images/icon-facebook.svg"
-import twitter from "../images/icon-twitter.svg"
-import instagram from "../images/icon-instagram.svg"
-import youtube from "../images/icon-youtube.svg"
-import up from "../images/icon-up.svg"
-import down from "../images/icon-down.svg"
+
+import github from '../images/icons8-github.svg'
+import discord from '../images/icons8-discord.svg'
+import gitlab from '../images/icons8-gitlab.svg'
+import google from '../images/icons8-google.svg'
+import stackoverflow from '../images/icons8-stack-overflow.svg'
+import xbox from '../images/icons8-xbox.svg'
+import linkedin from '../images/icons8-linkedin.svg'
+import replit from '../images/icons8-replit.svg'
+
+import up from '../images/icon-up.svg'
+
 
 export default function Overview() {
   return (
     <>
       <h2 className="max-w-7xl mx-auto text-slate-600 dark:text-white font-bold mb-5 text-2xl md:text-3xl">
-        Overview - Today
+        Other - Links
       </h2>
       <section className="max-w-7xl mx-auto grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+      <article className="bg-slate-200 dark:bg-slate-800 p-5 rounded shadow shadow-slate-50 dark:shadow-slate-700">
+          <ul className="flex items-center justify-between mb-5">
+            <li className="text-slate-600 font-bold dark:text-slate-400">
+              GitHub
+            </li>
+            <li>
+              <a href="https://github.com/animeshmaiti" target="blank">
+              <img src={github} alt="github" />
+              </a>
+            </li>
+          </ul>
+            <div className="flex items-center justify-center text-emerald-600 font-bold text-sm">
+              <img src={up} alt="" className="w-3 mr-2" />
+              GitHub Repository
+            </div>
+        </article>
         <article className="bg-slate-200 dark:bg-slate-800 p-5 rounded shadow shadow-slate-50 dark:shadow-slate-700">
           <ul className="flex items-center justify-between mb-5">
             <li className="text-slate-600 font-bold dark:text-slate-400">
-              Page Views
+              GitLab
             </li>
             <li>
-              <img src={facebook} alt="Facebook" />
+              <a href="https://gitlab.com/AnimeshMaiti" target="blank">
+              <img src={gitlab} alt="gitlab" />
+              </a>
             </li>
           </ul>
-
-          <ul className="flex items-center justify-between">
-            <li className="font-bold text-slate-800 text-3xl dark:text-white">
-              87
-            </li>
-            <li className="flex items-center text-emerald-600 font-bold text-sm">
+            <div className="flex items-center justify-center text-emerald-600 font-bold text-sm">
               <img src={up} alt="" className="w-3 mr-2" />
-              3%
-            </li>
-          </ul>
+              GitLab Works
+            </div>
         </article>
-
-        <article className="bg-slate-200 p-5 rounded shadow shadow-slate-50 dark:bg-slate-800 dark:shadow-slate-700">
+        <article className="bg-slate-200 dark:bg-slate-800 p-5 rounded shadow shadow-slate-50 dark:shadow-slate-700">
           <ul className="flex items-center justify-between mb-5">
             <li className="text-slate-600 font-bold dark:text-slate-400">
-              Likes
+              Google Developer
             </li>
             <li>
-              <img src={facebook} alt="Facebook" />
+              <a href="https://g.dev/Animesh07" target="blank">
+              <img src={google} alt="Facebook" />
+              </a>
             </li>
           </ul>
-
-          <ul className="flex items-center justify-between">
-            <li className="font-bold text-slate-800 text-3xl dark:text-white">
-              52
-            </li>
-            <li className="flex items-center text-rose-600 font-bold text-sm">
-              <img src={down} alt="" className="w-3 mr-2" />
-              2%
-            </li>
-          </ul>
-        </article>
-
-        <article className="bg-slate-200 p-5 rounded shadow shadow-slate-50 dark:bg-slate-800 dark:shadow-slate-700">
-          <ul className="flex items-center justify-between mb-5">
-            <li className="text-slate-600 font-bold dark:text-slate-400">
-              Likes
-            </li>
-            <li>
-              <img src={instagram} alt="Instagram" />
-            </li>
-          </ul>
-
-          <ul className="flex items-center justify-between">
-            <li className="font-bold text-slate-800 text-3xl dark:text-white">
-              5462
-            </li>
-            <li className="flex items-center text-emerald-600 font-bold text-sm">
+            <div className="flex items-center justify-center text-emerald-600 font-bold text-sm">
               <img src={up} alt="" className="w-3 mr-2" />
-              2257%
-            </li>
-          </ul>
+              Android Studio Projects
+            </div>
         </article>
-
-        <article className="bg-slate-200 p-5 rounded shadow shadow-slate-50 dark:bg-slate-800 dark:shadow-slate-700">
+        
+        <article className="bg-slate-200 dark:bg-slate-800 p-5 rounded shadow shadow-slate-50 dark:shadow-slate-700">
           <ul className="flex items-center justify-between mb-5">
             <li className="text-slate-600 font-bold dark:text-slate-400">
-              Profile Views
+              StackOverFlow
             </li>
             <li>
-              <img src={instagram} alt="Instagram" />
+              <a href="https://stackoverflow.com/users/18105925/animeshmaiti" target="blank">
+              <img src={stackoverflow} alt="stackover" />
+              </a>
             </li>
           </ul>
-
-          <ul className="flex items-center justify-between">
-            <li className="font-bold text-slate-800 text-3xl dark:text-white">
-              52k
-            </li>
-            <li className="flex items-center text-emerald-600 font-bold text-sm">
+            <div className="flex items-center justify-center text-emerald-600 font-bold text-sm">
               <img src={up} alt="" className="w-3 mr-2" />
-              1375%
-            </li>
-          </ul>
+              StackOverFlow Community
+            </div>
         </article>
-
-        <article className="bg-slate-200 p-5 rounded shadow shadow-slate-50 dark:bg-slate-800 dark:shadow-slate-700">
+        <article className="bg-slate-200 dark:bg-slate-800 p-5 rounded shadow shadow-slate-50 dark:shadow-slate-700">
           <ul className="flex items-center justify-between mb-5">
             <li className="text-slate-600 font-bold dark:text-slate-400">
-              Retweets
+              Repl.it
             </li>
             <li>
-              <img src={twitter} alt="Twitter" />
+              <a href="https://replit.com/@animeshmaiti" target="blank">
+              <img src={replit} alt="replit" />
+              </a>
             </li>
           </ul>
-
-          <ul className="flex items-center justify-between">
-            <li className="font-bold text-slate-800 text-3xl dark:text-white">
-              117
-            </li>
-            <li className="flex items-center text-emerald-600 font-bold text-sm">
+            <div className="flex items-center justify-center text-emerald-600 font-bold text-sm">
               <img src={up} alt="" className="w-3 mr-2" />
-              303%
-            </li>
-          </ul>
+              Cloud Base Compiler
+            </div>
         </article>
-
-        <article className="bg-slate-200 p-5 rounded shadow shadow-slate-50 dark:bg-slate-800 dark:shadow-slate-700">
+        <article className="bg-slate-200 dark:bg-slate-800 p-5 rounded shadow shadow-slate-50 dark:shadow-slate-700">
           <ul className="flex items-center justify-between mb-5">
             <li className="text-slate-600 font-bold dark:text-slate-400">
-              Likes
+              Discord
             </li>
             <li>
-              <img src={instagram} alt="Instagram" />
+              <a href="https://discordapp.com/users/714329492968964147" target="blank">
+              <img src={discord} alt="Facebook" />
+              </a>
             </li>
           </ul>
-
-          <ul className="flex items-center justify-between">
-            <li className="font-bold text-slate-800 text-3xl dark:text-white">
-              507
-            </li>
-            <li className="flex items-center text-emerald-600 font-bold text-sm">
+            <div className="flex items-center justify-center text-emerald-600 font-bold text-sm">
               <img src={up} alt="" className="w-3 mr-2" />
-              553%
-            </li>
-          </ul>
+              Discord Server Community
+            </div>
         </article>
-
-        <article className="bg-slate-200 p-5 rounded shadow shadow-slate-50 dark:bg-slate-800 dark:shadow-slate-700">
+        <article className="bg-slate-200 dark:bg-slate-800 p-5 rounded shadow shadow-slate-50 dark:shadow-slate-700">
           <ul className="flex items-center justify-between mb-5">
             <li className="text-slate-600 font-bold dark:text-slate-400">
-              Likes
+              LinkedIn
             </li>
             <li>
-              <img src={youtube} alt="YouTube" />
+              <a href="https://www.linkedin.com/in/animesh-maiti-3a2164171/" target="blank">
+              <img src={linkedin} alt="linkedin" />
+              </a>
             </li>
           </ul>
-
-          <ul className="flex items-center justify-between">
-            <li className="font-bold text-slate-800 text-3xl dark:text-white">
-              107
-            </li>
-            <li className="flex items-center text-rose-600 font-bold text-sm">
-              <img src={down} alt="" className="w-3 mr-2" />
-              19%
-            </li>
-          </ul>
+            <div className="flex items-center justify-center text-emerald-600 font-bold text-sm">
+              <img src={up} alt="" className="w-3 mr-2" />
+              Connect With LinkedIn
+            </div>
         </article>
-
-        <article className="bg-slate-200 p-5 rounded shadow shadow-slate-50 dark:bg-slate-800 dark:shadow-slate-700">
+        <article className="bg-slate-200 dark:bg-slate-800 p-5 rounded shadow shadow-slate-50 dark:shadow-slate-700">
           <ul className="flex items-center justify-between mb-5">
             <li className="text-slate-600 font-bold dark:text-slate-400">
-              Total Views
+              Xbox
             </li>
             <li>
-              <img src={youtube} alt="YouTube" />
+              <a href="https://live.xbox.com/Profile?Gamertag=OpTimaSPrime799" target="blank">
+              <img src={xbox} alt="xbox" />
+              </a>
             </li>
           </ul>
-
-          <ul className="flex items-center justify-between">
-            <li className="font-bold text-slate-800 text-3xl dark:text-white">
-              1407
-            </li>
-            <li className="flex items-center text-rose-600 font-bold text-sm">
-              <img src={down} alt="" className="w-3 mr-2" />
-              12%
-            </li>
-          </ul>
-          </article>
+            <div className="flex items-center justify-center text-emerald-600 font-bold text-sm">
+              <img src={up} alt="" className="w-3 mr-2" />
+              Play Games With Xbox Platform 
+            </div>
+        </article>
       </section>
     </>
   )
 }
+// https://live.xbox.com/Profile?Gamertag=OpTimaSPrime799
