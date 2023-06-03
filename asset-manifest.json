@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/dashboard/static/css/main.958ecb72.css",
-    "main.js": "/dashboard/static/js/main.a5a5f313.js",
-    "static/media/icons8-github.svg": "/dashboard/static/media/icons8-github.b2294bccaa20da50b7d58419f07c0892.svg",
-    "static/media/icons8-xbox.svg": "/dashboard/static/media/icons8-xbox.b7cd8ea23dda647966660766bd34d2ca.svg",
-    "static/media/icon-instagram.svg": "/dashboard/static/media/icon-instagram.568b5795d56c7d9247f495cb5488f8be.svg",
-    "static/media/icons8-google.svg": "/dashboard/static/media/icons8-google.9a7800d06783d80a1c12249a8ca58e9d.svg",
-    "static/media/icons8-stack-overflow.svg": "/dashboard/static/media/icons8-stack-overflow.6e4f4534dc92289f838ecf693b36031c.svg",
-    "static/media/icons8-discord.svg": "/dashboard/static/media/icons8-discord.99f0863429baa34cfbbd14bbc4b6d160.svg",
-    "index.html": "/dashboard/index.html",
-    "static/media/icons8-linkedin.svg": "/dashboard/static/media/icons8-linkedin.ada11cda991129bc91b79d2c7cee1066.svg",
-    "static/media/icon-twitter.svg": "/dashboard/static/media/icon-twitter.a0c5f64d440de29ad911970d8d8eb821.svg",
-    "static/media/icon-youtube.svg": "/dashboard/static/media/icon-youtube.cad14335e1f2ede979c61c8cb1a6f6f5.svg",
-    "static/media/icons8-replit.svg": "/dashboard/static/media/icons8-replit.2916c8523048a82cf1b95049ff9c37ff.svg",
-    "static/media/icons8-gitlab.svg": "/dashboard/static/media/icons8-gitlab.c54dbd2d930a01103af96f920e9a277f.svg",
-    "static/media/icon-facebook.svg": "/dashboard/static/media/icon-facebook.8deee3e3b5c57f63a1f487e146852570.svg",
-    "static/media/icon-up.svg": "/dashboard/static/media/icon-up.359200b20d83a37cfb26d6de21236570.svg",
-    "main.958ecb72.css.map": "/dashboard/static/css/main.958ecb72.css.map",
-    "main.a5a5f313.js.map": "/dashboard/static/js/main.a5a5f313.js.map"
+    "main.css": "/DashBoard/static/css/main.958ecb72.css",
+    "main.js": "/DashBoard/static/js/main.b96a2ff5.js",
+    "static/media/icons8-github.svg": "/DashBoard/static/media/icons8-github.b2294bccaa20da50b7d58419f07c0892.svg",
+    "static/media/icons8-xbox.svg": "/DashBoard/static/media/icons8-xbox.b7cd8ea23dda647966660766bd34d2ca.svg",
+    "static/media/icon-instagram.svg": "/DashBoard/static/media/icon-instagram.568b5795d56c7d9247f495cb5488f8be.svg",
+    "static/media/icons8-google.svg": "/DashBoard/static/media/icons8-google.9a7800d06783d80a1c12249a8ca58e9d.svg",
+    "static/media/icons8-stack-overflow.svg": "/DashBoard/static/media/icons8-stack-overflow.6e4f4534dc92289f838ecf693b36031c.svg",
+    "static/media/icons8-discord.svg": "/DashBoard/static/media/icons8-discord.99f0863429baa34cfbbd14bbc4b6d160.svg",
+    "index.html": "/DashBoard/index.html",
+    "static/media/icons8-linkedin.svg": "/DashBoard/static/media/icons8-linkedin.ada11cda991129bc91b79d2c7cee1066.svg",
+    "static/media/icon-twitter.svg": "/DashBoard/static/media/icon-twitter.a0c5f64d440de29ad911970d8d8eb821.svg",
+    "static/media/icon-youtube.svg": "/DashBoard/static/media/icon-youtube.cad14335e1f2ede979c61c8cb1a6f6f5.svg",
+    "static/media/icons8-replit.svg": "/DashBoard/static/media/icons8-replit.2916c8523048a82cf1b95049ff9c37ff.svg",
+    "static/media/icons8-gitlab.svg": "/DashBoard/static/media/icons8-gitlab.c54dbd2d930a01103af96f920e9a277f.svg",
+    "static/media/icon-facebook.svg": "/DashBoard/static/media/icon-facebook.8deee3e3b5c57f63a1f487e146852570.svg",
+    "static/media/icon-up.svg": "/DashBoard/static/media/icon-up.359200b20d83a37cfb26d6de21236570.svg",
+    "main.958ecb72.css.map": "/DashBoard/static/css/main.958ecb72.css.map",
+    "main.b96a2ff5.js.map": "/DashBoard/static/js/main.b96a2ff5.js.map"
   },
   "entrypoints": [
     "static/css/main.958ecb72.css",
-    "static/js/main.a5a5f313.js"
+    "static/js/main.b96a2ff5.js"
   ]
 }
