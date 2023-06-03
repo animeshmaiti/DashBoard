@@ -21,6 +21,10 @@ npm install
 //this is important and case sensitive otherwise it won't work
 "homepage": "https://your_gitHub_name.github.io/github_directory_name",
 ``` 
+### now you can run this command in your terminal to deploy your project in github pages:
+```bash
+npm run deploy
+```
 ### Every other setting is already set up for you in my package.json file
 <br/>
 
